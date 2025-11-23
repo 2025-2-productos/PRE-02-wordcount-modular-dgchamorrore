@@ -13,9 +13,11 @@ source setup.sh
 Ejecute los siguientes comandos en el terminal:
 
 ```bash
-python3 -m venv .venv
-.venv\Scripts\activate
-setup
+python3 -m venv .venv # 1ro - crear
+python -m venv .venv # probar sin el 3
+
+.venv\Scripts\activate # 2do - activar
+setup # correr en cdm 
 ```
 
 # Ejecución de pruebas
